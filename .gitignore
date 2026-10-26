@@ -1,0 +1,16 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+.env
+.netlify
+.tanstack
+
+# Keep the feature activation marker in source control.
+!.netlify/
+.netlify/*
+!.netlify/features/
+.netlify/features/*
+!.netlify/features/netlify-forms
+!.netlify/features/netlify-identity
